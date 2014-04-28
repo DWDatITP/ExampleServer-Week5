@@ -1,0 +1,22 @@
+{
+  "name": "dws",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.0.0",
+    "express3-handlebars": "^0.5.0",
+    "body-parser": "^1.0.1",
+    "express-session": "^1.0.2",
+    "cookie-parser": "^1.0.1",
+    "moment": "^2.6.0",
+    "mongodb": "^1.4.2",
+    "connect-mongo": "git+https://github.com/kcbanner/connect-mongo.git#master"
+  }
+}
